@@ -1,0 +1,161 @@
+body {
+  margin: 0px;
+  font-family: 'Helvetica';
+}
+.header {
+  margin: 0px;
+  width: 100%;
+  background-image: url('http://40.media.tumblr.com/3067d2f853c42de6e6341b1e99381f5a/tumblr_nj5uc1WW0C1tomxvuo8_1280.jpg');
+  background-size: cover;
+  background-position: top center;
+  height: 90%;
+}
+
+.entry {
+  text-align: left;
+  font-size: 50px;
+  padding-left: 10%;
+  color: #fff;
+  font-weight: 600;
+  margin: 80px 0px;
+}
+
+.entry:first-of-type {
+  margin-top: 0px;
+  padding-top: 10%;
+}
+
+.entry input {
+  width: 70%;
+  background-color: rgba(255,255,255,.1);
+  border: none;
+  /*border-bottom: 2px  solid #fff;*/
+  cursor: none;
+  color: white;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 200;
+  border-radius: 0px;
+  padding-left: 20px;
+  /*box-shadow: 0px 0 30px 15px rgba(255,255,255,.5);*/
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #EBEBEB;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #EBEBEB;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #EBEBEB;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #EBEBEB;
+}
+
+.entry input:focus {
+  outline: none !important;
+  border-bottom: 1px solid white;
+  box-shadow: none;
+}
+
+.middle {
+  color: #1E3546;
+  background-color: white;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.club {
+  color: green;
+}
+
+.middle p {
+  max-width: 600px;
+  padding: 20px 20px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.middle h1 {
+  margin-top: 0px;
+  padding-top: 40px;
+}
+
+input[type='submit'] {
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  padding: 20px 50px;
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid #1E3546;
+  color: #1E3546;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+input[type='submit']:hover {
+  color: white;
+  background-color: #1E3546;
+}
+
+/* Blinking Cursor */
+/*.blinking-cursor {
+  font-weight: 100;
+  font-size: 40px;
+  color: #fff;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}*/
